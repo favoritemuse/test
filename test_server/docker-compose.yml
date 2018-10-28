@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  test_server:
+    container_name: test_server
+    hostname: test_server
+    build: ./
+    ports:
+      - "80:80"
